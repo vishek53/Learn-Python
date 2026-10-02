@@ -1,14 +1,11 @@
-python_club = {"vishek", "sanskriti","yash","pranjal"}
-ai_club = {"vishek","sanskriti", "priya","arjun" }
+python_club = {"vishek", "sanskriti", "yash", "pranjal"}
+ai_club = {"vishek", "sanskriti", "priya", "arjun"}
 
-student_in_both_club = python_club.intersection(ai_club)
+students_in_both_clubs = python_club & ai_club
+print(students_in_both_clubs)
 
-print(student_in_both_club)
+students_only_in_python_club = python_club - ai_club
+print(students_only_in_python_club)
 
-student_0nly_in_python_club = python_club.difference(ai_club)
-
-print(student_0nly_in_python_club)
-
-Students_in_either_club =  python_club.union(ai_club)
-
-print(Students_in_either_club)
+students_in_either_club = python_club | ai_club
+print(students_in_either_club)
