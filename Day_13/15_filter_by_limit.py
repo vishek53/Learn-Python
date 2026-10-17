@@ -14,7 +14,7 @@ def analyze_numbers(numbers, limit):
     filtered_numbers = filter_greater(numbers, limit)
     count = len(filtered_numbers)
 
-    print(f"Numbers greater than{limit}: {filtered_numbers}")
+    print(f"Numbers greater than {limit}: {filtered_numbers}")
     print(f"Count: {count}")
 
 analyze_numbers(numbers, 25)
