@@ -17,4 +17,4 @@ def calculate_average(marks):
 
 for student in students:
     average = calculate_average(student["marks"])
-    print(f"{student['name']}: {average:}")
+    print(f"{student['name']}: {average:.2f}")
